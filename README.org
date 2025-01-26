@@ -1,0 +1,41 @@
+#+TITLE: MRUBER DARKER
+#+AUTHOR: Guilherme Monteiro de Oliveira
+#+OPTIONS: toc:t
+
+* TABLE OF CONTENTS :toc:
+- [[#instalation][INSTALATION]]
+  - [[#using-straight][Using straight]]
+  - [[#manualy-using-git][Manualy (using git)]]
+- [[#references][REFERENCES]]
+
+* THE THEME
+Mruger darker color theme for emacs 29+. A theme based on the gruber dark and gruber darker.
+
+* INSTALATION
+** Using straight
+#+BEGIN_SRC emacs-lisp
+(straight-use-package
+ '(mruber-darker :type git
+                 :host nil
+                 :repo "https://github.com/monteiroliveira/mruger-darker-theme"))
+(require 'mruber-darker)
+(load-theme 'mruber-darker t)
+#+END_SRC
+
+** Manually (using git)
+#+BEGIN_SRC bash
+git clone https://github.com/monteiroliveira/mruger-darker-theme
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'custom-theme-load-path "/path/to/the/theme/")
+(load-theme 'mruber-darker t)
+#+END_SRC
+
+* CONTRIBUTION
+I just config the colors for modes I use, feel free to add more modes support.
+I can't guarantee that the theme will look good in the unconfigured modes...
+
+* REFERENCES
+- [[https://github.com/rexim/gruber-darker-theme/tree/master][Gruber darker theme]] by rexim <Alexey Kutepov>
+- [[https://daringfireball.net/projects/bbcolors/schemes/][Gruber Dark theme]] by Jonh Gruber
