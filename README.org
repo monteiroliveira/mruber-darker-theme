@@ -11,6 +11,8 @@
 * THE THEME
 Mruger darker color theme for emacs 29+. A theme based on the gruber dark and gruber darker.
 
+[[https://raw.githubusercontent.com/monteiroliveira/mruber-darker-theme/refs/heads/assets/example.png]]
+
 * INSTALATION
 ** Using straight
 #+BEGIN_SRC emacs-lisp
