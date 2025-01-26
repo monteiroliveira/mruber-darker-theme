@@ -108,6 +108,7 @@
    (mruber-darker-set-face 'org-done              :foreground mruber-darker-color-2)
    (mruber-darker-set-face 'org-todo              :foreground mruber-darker-color-1-1)
    (mruber-darker-set-face 'org-upcoming-deadline :foreground mruber-darker-color-7)
+   (mruber-darker-set-face 'org-inline-src-block  :foreground mruber-darker-color-6-1)
 
    ;; Magit
    (mruber-darker-set-face 'magit-branch                :foreground mruber-darker-color-6)
@@ -122,6 +123,8 @@
    (mruber-darker-set-face 'magit-item-highlight        :background mruber-darker-bg-1)
    (mruber-darker-set-face 'magit-tag                   :foreground mruber-darker-color-3 :background mruber-darker-bg)
    (mruber-darker-set-face 'magit-blame-heading         :background mruber-darker-bg-1 :foreground mruber-darker-fg)
+   (mruber-darker-set-face 'magit-header-line           :foreground mruber-darker-color-3 :bold t)
+   (mruber-darker-set-face 'magit-section-heading       :foreground mruber-darker-color-3 :bold t)
 
    ;; Compilation
    (mruber-darker-set-face 'compilation-info           :foreground mruber-darker-color-2 :inherit 'unspecified)
