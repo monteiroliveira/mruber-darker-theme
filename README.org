@@ -3,9 +3,11 @@
 #+OPTIONS: toc:t
 
 * TABLE OF CONTENTS :toc:
+- [[#the-theme][THE THEME]]
 - [[#instalation][INSTALATION]]
   - [[#using-straight][Using straight]]
-  - [[#manualy-using-git][Manualy (using git)]]
+  - [[#manually-using-git][Manually (using git)]]
+- [[#contribution][CONTRIBUTION]]
 - [[#references][REFERENCES]]
 
 * THE THEME

@@ -28,7 +28,7 @@
       (mruber-darker-color-3   "#3888BA")
       (mruber-darker-color-4   "#8B8589")
       (mruber-darker-color-5   "#9CAEBA")
-      (mruber-darker-color-6   "#75A0BA")
+      (mruber-darker-color-6   "#B0C3EB") ;; this maybe change... tryng to find a good color
       (mruber-darker-color-6-1 "#565F73")
       (mruber-darker-color-6-2 "#303540")
       (mruber-darker-color-7   "#9E95C7"))
@@ -64,7 +64,7 @@
    (mruber-darker-set-face 'font-lock-doc-face               :foreground mruber-darker-color-2)
    (mruber-darker-set-face 'font-lock-doc-string-face        :foreground mruber-darker-color-2)
    (mruber-darker-set-face 'font-lock-function-name-face     :foreground mruber-darker-color-6)
-   (mruber-darker-set-face 'font-lock-keyword-face           :foreground mruber-darker-color-3 :bold t :slant 'italic)
+   (mruber-darker-set-face 'font-lock-keyword-face           :foreground mruber-darker-color-3 :bold t)
    (mruber-darker-set-face 'font-lock-preprocessor-face      :foreground mruber-darker-color-5)
    (mruber-darker-set-face 'font-lock-reference-face         :foreground mruber-darker-color-5)
    (mruber-darker-set-face 'font-lock-string-face            :foreground mruber-darker-color-2)
@@ -108,7 +108,9 @@
    (mruber-darker-set-face 'org-done              :foreground mruber-darker-color-2)
    (mruber-darker-set-face 'org-todo              :foreground mruber-darker-color-1-1)
    (mruber-darker-set-face 'org-upcoming-deadline :foreground mruber-darker-color-7)
-   (mruber-darker-set-face 'org-inline-src-block  :foreground mruber-darker-color-6-1)
+   (mruber-darker-set-face 'org-block             :foreground mruber-darker-fg)
+   (mruber-darker-set-face 'org-level-1           :foreground mruber-darker-color-3 :bold t)
+   (mruber-darker-set-face 'org-level-2           :foreground mruber-darker-color-6)
 
    ;; Magit
    (mruber-darker-set-face 'magit-branch                :foreground mruber-darker-color-6)
