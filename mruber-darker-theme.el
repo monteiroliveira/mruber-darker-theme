@@ -97,7 +97,7 @@
    (mruber-darker-set-face 'whitespace-newline          :background mruber-darker-bg :foreground mruber-darker-bg-2)
    (mruber-darker-set-face 'whitespace-trailing         :background mruber-darker-color-1 :foreground mruber-darker-color-1)
    (mruber-darker-set-face 'whitespace-empty            :background mruber-darker-color-3 :foreground mruber-darker-color-3)
-   (mruber-darker-set-face 'whitespace-indentation      :background mruber-darker-color-3 :foreground mruber-darker-color-1)
+   (mruber-darker-set-face 'whitespace-indentation      :background mruber-darker-bg :foreground mruber-darker-bg-1)
    (mruber-darker-set-face 'whitespace-space-after-tab  :background mruber-darker-color-3 :foreground mruber-darker-color-3)
    (mruber-darker-set-face 'whitespace-space-before-tab :background mruber-darker-color-4 :foreground mruber-darker-color-4)
 
