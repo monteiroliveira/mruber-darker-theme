@@ -31,7 +31,8 @@
       (mruber-darker-color-6   "#B0C3EB") ;; this maybe change... tryng to find a good color
       (mruber-darker-color-6-1 "#565F73")
       (mruber-darker-color-6-2 "#303540")
-      (mruber-darker-color-7   "#9E95C7"))
+      (mruber-darker-color-7   "#9E95C7")
+      (mruber-darker-color-8   "#BA8438"))
 
   (custom-theme-set-variables
    'mruber-darker
@@ -41,20 +42,22 @@
    'mruber-darker
 
    ;; Basic (essentials)
-   (mruber-darker-set-face 'default             :background mruber-darker-bg :foreground mruber-darker-fg)
-   (mruber-darker-set-face 'border              :background mruber-darker-bg :foreground mruber-darker-bg-2)
-   (mruber-darker-set-face 'cursor              :background mruber-darker-color-3)
-   (mruber-darker-set-face 'fringe              :background nil :foreground mruber-darker-bg-2)
-   (mruber-darker-set-face 'vertical-border     :foreground mruber-darker-bg-2)
-   (mruber-darker-set-face 'link                :foreground mruber-darker-color-6 :underline t)
-   (mruber-darker-set-face 'link-visited        :foreground mruber-darker-color-7 :underline t)
-   (mruber-darker-set-face 'match               :background mruber-darker-bg-4)
-   (mruber-darker-set-face 'shadow              :foreground mruber-darker-bg-4)
-   (mruber-darker-set-face 'minibuffer-prompt   :foreground mruber-darker-color-6)
-   (mruber-darker-set-face 'region              :background mruber-darker-bg-3 :foreground nil)
-   (mruber-darker-set-face 'secondary-selection :background mruber-darker-bg-3 :foreground nil)
-   (mruber-darker-set-face 'trailing-whitespace :foreground mruber-darker-black :background mruber-darker-color-1)
-   (mruber-darker-set-face 'tooltip             :background mruber-darker-bg-4 :foreground mruber-darker-white)
+   (mruber-darker-set-face 'default                        :background mruber-darker-bg :foreground mruber-darker-fg)
+   (mruber-darker-set-face 'border                         :background mruber-darker-bg :foreground mruber-darker-bg-2)
+   (mruber-darker-set-face 'cursor                         :background mruber-darker-color-3)
+   (mruber-darker-set-face 'fringe                         :background nil :foreground mruber-darker-bg-2)
+   (mruber-darker-set-face 'vertical-border                :foreground mruber-darker-bg-2)
+   (mruber-darker-set-face 'link                           :foreground mruber-darker-color-6 :underline t)
+   (mruber-darker-set-face 'link-visited                   :foreground mruber-darker-color-7 :underline t)
+   (mruber-darker-set-face 'match                          :background mruber-darker-bg-4)
+   (mruber-darker-set-face 'shadow                         :foreground mruber-darker-bg-4)
+   (mruber-darker-set-face 'minibuffer-prompt              :foreground mruber-darker-color-6)
+   (mruber-darker-set-face 'region                         :background mruber-darker-bg-3 :foreground nil)
+   (mruber-darker-set-face 'secondary-selection            :background mruber-darker-bg-3 :foreground nil)
+   (mruber-darker-set-face 'trailing-whitespace            :foreground mruber-darker-black :background mruber-darker-color-1)
+   (mruber-darker-set-face 'tooltip                        :background mruber-darker-bg-4 :foreground mruber-darker-white)
+   (mruber-darker-set-face 'show-paren-match               :background mruber-darker-color-8)
+   (mruber-darker-set-face 'show-paren-match-expression    :background mruber-darker-color-8)
 
    ;; Font lock
    (mruber-darker-set-face 'font-lock-builtin-face           :foreground mruber-darker-color-3)
