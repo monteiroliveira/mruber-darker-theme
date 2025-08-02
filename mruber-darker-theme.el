@@ -141,6 +141,11 @@
    ;; Completion
    (mruber-darker-set-face 'completions-annotations :inherit 'shadow)
 
+   ;; Ido
+   (mruber-darker-set-face 'ido-first-match :foreground mruber-darker-color-3 :bold nil)
+   (mruber-darker-set-face 'ido-only-match :foreground mruber-darker-color-2 :bold t)
+   (mruber-darker-set-face 'ido-subdir :foreground mruber-darker-color-8 :bold t)
+
    ;; Company
    (mruber-darker-set-face 'company-tooltip                      :foreground mruber-darker-fg :background mruber-darker-bg-1)
    (mruber-darker-set-face 'company-tooltip-annotation           :foreground mruber-darker-color-4 :background mruber-darker-bg-2)
