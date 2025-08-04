@@ -12,6 +12,9 @@
 (let ((mruber-darker-simple-white     "#FFFFFF")
       (mruber-darker-simple-black     "#000000")
       (mruber-darker-simple-fg        "#E4E4EF")
+      (mruber-darker-simple-fg-type-1 "#BFBFBF")
+      (mruber-darker-simple-fg-type-2 "#CCCCCC")
+      (mruber-darker-simple-fg-type-3 "#4D4D4D")
       (mruber-darker-simple-bg        "#181818")
       (mruber-darker-simple-bg-type-1 "#282828")
       (mruber-darker-simple-bg-type-2 "#453D41")
@@ -62,9 +65,9 @@
    (mruber-darker-simple-set-face 'font-lock-preprocessor-face          :foreground mruber-darker-simple-white)
    (mruber-darker-simple-set-face 'font-lock-reference-face             :foreground mruber-darker-simple-white)
 
-   (mruber-darker-simple-set-face 'mode-line                            :background mruber-darker-simple-bg-type-1 :foreground mruber-darker-simple-white)
-   (mruber-darker-simple-set-face 'mode-line-buffer-id                  :background mruber-darker-simple-bg-type-1 :foreground mruber-darker-simple-white)
-   (mruber-darker-simple-set-face 'mode-line-inactive                   :background mruber-darker-simple-bg-type-1 :foreground mruber-darker-simple-extra)
+   (mruber-darker-simple-set-face 'mode-line                            :background mruber-darker-simple-fg-type-1 :foreground mruber-darker-simple-black)
+   (mruber-darker-simple-set-face 'mode-line-buffer-id                  :weight 'bold)
+   (mruber-darker-simple-set-face 'mode-line-inactive                   :background mruber-darker-simple-fg-type-3 :foreground mruber-darker-simple-fg-type-2)
 
    (mruber-darker-simple-set-face 'highlight                            :background mruber-darker-simple-bg-type-1 :foreground nil)
    (mruber-darker-simple-set-face 'highlight-current-line-face          :background mruber-darker-simple-bg-type-1 :foreground nil)
@@ -75,6 +78,8 @@
    (mruber-darker-simple-set-face 'dired-directory                      :foreground mruber-darker-simple-main :weight 'bold)
    (mruber-darker-simple-set-face 'dired-ignored                        :foreground mruber-darker-simple-extra :inherit 'unspecified)
    (mruber-darker-simple-set-face 'dired-broken-symlink                 :foreground mruber-darker-simple-error :weight 'bold)
+
+   (mruber-darker-simple-set-face 'isearch                              :foreground mruber-darker-simple-black :background mruber-darker-simple-fg)
 
    (mruber-darker-simple-set-face 'whitespace-space                     :background mruber-darker-simple-bg :foreground mruber-darker-simple-bg-type-1)
    (mruber-darker-simple-set-face 'whitespace-tab                       :background mruber-darker-simple-bg :foreground mruber-darker-simple-bg-type-1)
